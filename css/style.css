@@ -90,6 +90,27 @@ a {
 li.active {
     border-bottom: 3px solid #3367d6
 }
+
 li.active a {
     color: #3367d6;
+}
+
+
+/* Main */
+main {
+    padding-top: 100px;
+}
+
+main h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #3c4043;
+    line-height: 32px;
+}
+
+main p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 20px;
 }
