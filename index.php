@@ -26,3 +26,57 @@ $faq = [
     ],
 ]
 ?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+
+
+    <!-- General Style -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+<header class="full-width px-20">
+    <div class="top-row">
+        <div class="logo">
+            <img src="./img/google2.0.0.jpg" alt="">
+        </div>
+        <div class="title">
+            <h1>Privacy e termini</h1>
+        </div>
+    </div>
+    <nav >
+        <ul>
+            <li><a href="">Introduzione</a></li>
+            <li><a href="">Norme sulla privacy</a></li>
+            <li><a href="">Termini di servizio</a></li>
+            <li><a href="">Tecnologie</a></li>
+            <li class="active"><a href="">Domande frequenti</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container debug">
+
+
+
+
+
+
+
+</main>
+
+
+</body>
+</html>

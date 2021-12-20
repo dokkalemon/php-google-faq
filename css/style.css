@@ -1,0 +1,95 @@
+/* GENERAL STYLE */
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utilities */
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.full-width {
+    width: 100%
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.debug {
+    border: 1px solid red;
+}
+
+/* Header */
+header {
+    height: 90px;
+    border-bottom: 1px solid #a1a2a2;
+}
+
+.top-row {
+    height: 70%;
+    width: 100%;
+    display: flex;
+}
+
+.logo {
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.title {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 22px;
+    color: #5f6368;
+    font-weight: 400;
+}
+
+nav {
+    height: 28px;
+    width: 100%;
+}
+ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 30px;
+    height: 100%;
+}
+
+a {
+    color: #5f6368;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+li.active {
+    border-bottom: 3px solid #3367d6
+}
+li.active a {
+    color: #3367d6;
+}
